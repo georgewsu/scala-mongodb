@@ -4,7 +4,7 @@ import org.scalatest.FunSuite
 import org.scalatest.matchers.ShouldMatchers
 import com.typesafe.scalalogging.slf4j.StrictLogging
 
-abstract class BeforeAndAfterTestSuite extends FunSuite
+abstract class BaseTestSuite extends FunSuite
     with BeforeAndAfterAll
     with BeforeAndAfter
     with ShouldMatchers
